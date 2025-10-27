@@ -1,4 +1,116 @@
-<?php include 'header.php'; ?>
+<!DOCTYPE html>
+<html lang="zxx">
+
+
+<!-- index.html  22 Nov 2019 04:12:25 GMT -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="assets/css/flaticon.css">
+    <link rel="stylesheet" href="assets/css/lightcase.css">
+    <link rel="stylesheet" href="assets/css/odometer.css">
+    <link rel="stylesheet" href="assets/css/swiper.min.css">
+    <link rel="stylesheet" href="assets/css/nice-select.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+
+    <link rel="shortcut icon" href="{{ asset('images/dauphinfavi.png') }}" type="image/x-icon">
+
+    <title>Accueil</title>
+
+
+</head>
+
+<body>
+    
+    <!-- ==========scrolltotop========== -->
+    <a href="#0" class="scrollToTop" title="ScrollToTop">
+        <img src="assets//images/rocket.png" alt="rocket">
+    </a>
+    <!-- ==========scrolltotop========== -->
+
+    <!-- ==========header-section========== -->
+    <header class="header-section">
+        <div class="header-top d-none d-lg-block">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-9">
+                        <ul class="header-top-info">
+                            <li>
+                                <div class="left">
+                                    <i class="flaticon-phone-call"></i>
+                                </div>
+                                <div class="right">
+                                    <span class="d-block">Appelez-nous</span>
+                                    <a href="">+221 771267575</a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="left">
+                                    <i class="flaticon-placeholder"></i>
+                                </div>
+                                <div class="right">
+                                    <span class="d-block">Adresse</span>
+                                    <a href="#0">Plage de NGOR</a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="left">
+                                    <i class="flaticon-clock"></i>
+                                </div>
+                                <div class="right">
+                                    <span class="d-block">Heures d'ouverture</span>
+                                    <a href="#0">7:00am - 11:30 am ( Vendredi Ferme )</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="header-bottom">
+            <div class="container">
+                <div class="header-wrapper">
+                    <div class="logo">
+                        <a href="#0">
+                            <img src="assets//images/logo/logo.png" alt="logo">
+                        </a>
+                    </div>
+                    <ul class="menu ml-auto">
+                        <li>
+                            <a href="#0">Accueil</a>
+                            
+                        </li>
+                        <li>
+                            <a href="">Le Club</a>
+                        </li>
+                        <li>
+                            <a href="#0">Galeries</a>
+                            
+                        </li>
+                        <li>
+                            <a href="#0">Actualites</a>
+                            
+                        </li>
+                        <li>
+                            <a href="#0">Boutique</a>
+                            
+                        </li>
+                        
+                        
+                    </ul>
+                    
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <!-- ==========header-section========== -->
 
 
     <!-- ==========about-us-section========== -->
@@ -365,4 +477,66 @@
 
 
 
-    <?php include 'footer.php'; ?>
+    <!-- ==========footer-section========== -->
+    <footer>
+        <div class="footer-top padding-top padding-bottom theme-overlay bg_img" data-background="assets//images/footer.jpg">
+            <div class="container">
+                <div class="row mb-40-none">
+                    <div class="col-md-4 col-sm-8">
+                        <div class="footer-widget footer-about">
+                            <div class="footer-logo">
+                                <a href="index.html">
+                                    <img src="assets//images/logo/footer-logo.png" alt="logo">
+                                </a>
+                            </div>
+                            <p> </p>
+                            <ul>
+                                <li>
+                                    <a href="tel:80930458459">
+                                        <!-- <i class="fas fa-phone"></i> -->
+                                        <i class="flaticon-telephone-handle-silhouette"></i>
+                                        +221 771267575
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#0">
+                                        <i class="flaticon-maps-and-flags"></i>
+                                        <!-- <i class="fas fa-map-marker-alt"></i>  -->
+                                        Plage de NGOR
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom py-4 bg-theme text-center">
+            <div class="container">
+                <p class="m-0"><a href="">Pisco Business</a></p>
+            </div>
+        </div>
+    </footer>
+    <!-- ==========footer-section========== -->
+
+
+    <script src="assets/js/jquery-3.3.1.min.js"></script>
+    <script src="assets/js/modernizr-3.6.0.min.js"></script>
+    <script src="assets/js/plugins.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/isotope.pkgd.min.js"></script>
+    <script src="assets/js/jquery.ripples-min.js"></script>
+    <script src="assets/js/lightcase.js"></script>
+    <script src="assets/js/swiper.min.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/countdown.min.js"></script>
+    <script src="assets/js/odometer.min.js"></script>
+    <script src="assets/js/viewport.jquery.js"></script>
+    <script src="assets/js/nice-select.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
+
+<!-- index.html  22 Nov 2019 04:16:40 GMT -->
+</html><?php
+?>
