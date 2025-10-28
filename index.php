@@ -344,7 +344,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-4 col-sm-10">
+                <!--<div class="col-md-6 col-lg-4 col-sm-10">
                     <div class="client-item">
                         <div class="client-thumb">
                             <div class="thumb">
@@ -357,7 +357,7 @@
                             <span>Senior Instructeur</span>
                         </div>
                     </div>
-                </div>
+                </div>-->
             </div>
         </div>
     </section>

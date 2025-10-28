@@ -74,7 +74,7 @@
                 </div>
                 <ul class="menu ml-auto">
                     <li><a href="index.php">Accueil</a></li>
-                    <li><a href="club.php">Le Club</a></li>
+                    <li><a href="leclub.php">Le Club</a></li>
                     <li><a href="galerie.php">Galeries</a></li>
                     <li><a href="actualites.php">Actualités</a></li>
                     <li><a href="boutique.php">Boutique</a></li>
