@@ -12,9 +12,9 @@ $database = "dauphinsngormysql"; // nom de ta base de données
 
 try {
     // Connexion avec PDO
-    $conn = new PDO("mysql:host=$host;dbname=$database;charset=utf8", $user, $password);
+    $db = new PDO("mysql:host=$host;dbname=$database;charset=utf8", $user, $password);
     // Définir le mode d’erreur de PDO sur Exception
-    $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+    $db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 } catch (PDOException $e) {
     // En cas d’erreur de connexion
     die("❌ Échec de connexion à la base de données : " . $e->getMessage());

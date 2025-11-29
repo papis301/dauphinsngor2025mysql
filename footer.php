@@ -52,5 +52,13 @@
 <script src="assets/js/nice-select.js"></script>
 <script src="assets/js/main.js"></script>
 
+<script>
+    document.querySelector(".mobile-menu-toggle").addEventListener("click", function () {
+        const menu = document.querySelector(".mobile-menu");
+        menu.style.display = (menu.style.display === "block") ? "none" : "block";
+    });
+</script>
+
+
 </body>
 </html>
